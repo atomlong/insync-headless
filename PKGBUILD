@@ -12,7 +12,7 @@ url="https://www.insynchq.com/downloads"
 license=('custom:insync')
 options=(!strip)
 depends=('glibc')
-arch=('x86_64')
+arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
 source=("http://s.insynchq.com/builds/${pkgname}_${pkgver}-buster_amd64.deb"
         'insync-headless.service'
         'insync-headless@.service'
